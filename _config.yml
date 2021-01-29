@@ -175,16 +175,13 @@ kramdown:
 
 # Collections
 collections:
-  projects:
+  analysis:
     output: true
     permalink: /:collection/:path/
-  publications:
+  visualisations:
     output: true
     permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-  talks:
+  predictive-modeling:
     output: true
     permalink: /:collection/:path/
 
