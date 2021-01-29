@@ -195,10 +195,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
-      comments: true
+      #read_time: true
+      #comments: true
       share: true
-      related: true
+      #related: true
   # _visualisations
   - scope:
       path: ""
@@ -206,6 +206,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+      share: true
   # _predictive-modeling
   - scope:
       path: ""
@@ -214,7 +215,7 @@ defaults:
       layout: single
       author_profile: true
       share: true
-      comments: true
+      #comments: true
 
 # Sass/SCSS
 sass:
