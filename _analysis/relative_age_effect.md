@@ -1,8 +1,8 @@
 ---
 title: "Relative Age Effect"
-collection: projects
+collection: analysis
 type: "Cricket"
-permalink: /projects/relative_age_effect
+permalink: /analysis/relative_age_effect
 ---
 
 Relative age effect
