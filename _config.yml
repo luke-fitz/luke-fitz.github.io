@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Luke Fitzpatrick"
 title_separator          : "-"
 name                     : &name "Luke Fitzpatrick"
-description              : &description "Analyst"
+description              : &description "Analytics Professional"
 url                      : https://luke-fitz.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "luke-fitz/luke-fitz.github.io"
@@ -188,10 +188,10 @@ collections:
 
 # Defaults
 defaults:
-  # _posts
+  # _analysis
   - scope:
       path: ""
-      type: posts
+      type: analysis
     values:
       layout: single
       author_profile: true
@@ -199,48 +199,22 @@ defaults:
       comments: true
       share: true
       related: true
-  # _pages
+  # _visualisations
   - scope:
       path: ""
-      type: pages
+      type: visualisations
     values:
       layout: single
       author_profile: true
-  # _projects
+  # _predictive-modeling
   - scope:
       path: ""
-      type: projects
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  # _publications
-  - scope:
-      path: ""
-      type: publications
+      type: predictive-modeling
     values:
       layout: single
       author_profile: true
       share: true
       comments: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
 
 # Sass/SCSS
 sass:
