@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Luke Fitzpatrick  • Analytics Professional"
+title: "Luke Fitzpatrick&nbsp;&nbsp;•&nbsp;&nbsp;Analytics Professional"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
