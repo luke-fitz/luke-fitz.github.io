@@ -17,4 +17,4 @@ To this end, I created an animation based on simulated darts throws with differe
   <source src="https://luke-fitz.github.io/files/darts_simulator.mp4" type="video/mp4">
 </video>
 
-Now to plot my radius of accuracy as a mathematical function of alcohol consumption, and darts will be a solved game!
+The Matlab code is [here](https://github.com/luke-fitz/projects/tree/main/darts_simulator). Now to plot my radius of accuracy as a mathematical function of alcohol consumption, and darts will be a solved game!
