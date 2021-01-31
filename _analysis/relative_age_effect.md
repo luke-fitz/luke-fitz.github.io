@@ -13,4 +13,5 @@ This is <a href="https://en.wikipedia.org/wiki/Relative_age_effect">well-studied
 
 <iframe width="900" height="600" frameborder="0" scrolling="no" src="https://luke-fitz.github.io/files/relative_age_australia.html"></iframe>
 
+[notebook](https://github.com/luke-fitz/projects/blob/main/cricket/relative_age_cricket.ipynb)
 
