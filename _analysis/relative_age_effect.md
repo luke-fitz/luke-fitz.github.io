@@ -21,4 +21,4 @@ How many potential greats have been lost to cricket before their tenth birthday?
 
 I used Python's BeautifulSoup, pandas and Plotly libraries for the web scraping, data manipulation and visualisations respectively. Check out the Jupyter notebook [here](https://github.com/luke-fitz/projects/blob/main/cricket/relative_age_cricket.ipynb).
 
-<sup><a name="seasonality">1</a></sup> Well, almost. The <a href="https://academic.oup.com/humrep/article/16/7/1512/693437">_Journal of Human Reproduction_</a> is an authority on such questions.
+<sup><a name="seasonality">1</a></sup> Well, almost. The <a href="https://academic.oup.com/humrep/article/16/7/1512/693437">_Journal of Human Reproduction_</a> seems to be an authority on such questions.
