@@ -188,10 +188,10 @@ collections:
 
 # Defaults
 defaults:
-  # _analysis
+  # _posts
   - scope:
       path: ""
-      type: analysis
+      type: posts
     values:
       layout: single
       author_profile: true
@@ -199,6 +199,21 @@ defaults:
       #comments: true
       share: true
       #related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _analysis
+  - scope:
+      path: ""
+      type: analysis
+    values:
+      layout: single
+      author_profile: true
+      share: true
   # _visualisations
   - scope:
       path: ""
@@ -215,8 +230,7 @@ defaults:
       layout: single
       author_profile: true
       share: true
-      #comments: true
-
+      
 # Sass/SCSS
 sass:
   sass_dir: _sass
