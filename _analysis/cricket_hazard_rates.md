@@ -11,7 +11,7 @@ If you've ever studied for actuarial exams, the little orange book of mortality 
 
 I created the equivalent set of hazard rates across a Test cricket innings. Here's how you read them: given that a batsman has made _N_ runs (the x-axis), what is the probability of them being dismissed before the next run (the y-axis)?
 
-<iframe width="900" height="600" frameborder="0" scrolling="no" src="https://luke-fitz.github.io/files/batting_hazrd_rates.html"></iframe>
+<iframe width="900" height="600" frameborder="0" scrolling="no" src="https://luke-fitz.github.io/files/batting_hazard_rates.html"></iframe>
 
 There's a clear "excess mortality" bump between 90 and 120, owing first to the nervious nineties, and then to the proclivity to throw your wicket away after reaching 100 through either boredom or fatigue. This table lists the players with the highest conversion rate from 90 to 120, given a minimum of fifteen opportunities.
 
