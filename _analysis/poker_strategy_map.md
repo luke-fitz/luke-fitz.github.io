@@ -10,7 +10,7 @@ I secretly tracked my friends' online poker games, and here's what I found.
 I started playing regular online poker games with a group of friends during lockdown. Without telling them, I began logging every bet, call, raise and fold using a VBA-based Excel tracker. There were two significant findings.
 
 ## A leopard never changes its spots.
-The three [most important metrics](https://pokercopilot.com/essential-poker-statistics) in poker are:
+The [three most important metrics](https://pokercopilot.com/essential-poker-statistics) in poker are:
 - Voluntarily Put $ in Pot (VPIP): how often you voluntarily pay money into a hand before seeing the flop
 - Pre-flop Raise (PFR): how often you raise before the flop is seen
 - Post-flop Aggression Frequency (Agg): how aggressively you play pos-tflop
