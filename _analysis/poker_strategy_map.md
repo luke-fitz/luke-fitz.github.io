@@ -22,10 +22,10 @@ In these scatter charts, each player is represented by a different symbol, and e
 <div id="table">
    <div class="row">
       <div class="cell">
-         <iframe width="560" height="400" frameborder="0" scrolling="no" src="https://luke-fitz.github.io/files/poker_pre_flop_scatter.html"></iframe>
+         <iframe width="450" height="450" frameborder="0" scrolling="no" src="https://luke-fitz.github.io/files/poker_pre_flop_scatter.html"></iframe>
       </div>
       <div class="cell">
-         <iframe width="560" height="400" frameborder="0" scrolling="no" src="https://luke-fitz.github.io/files/poker_post_flop_scatter.html"></iframe>
+         <iframe width="450" height="450" frameborder="0" scrolling="no" src="https://luke-fitz.github.io/files/poker_post_flop_scatter.html"></iframe>
       </div>
    </div>
 </div>
@@ -33,7 +33,8 @@ In these scatter charts, each player is represented by a different symbol, and e
 ## Best practices are really best practices.
 If you search the web for "tips for amateur poker players", you'll find helpful articles [[1](https://medium.com/bobs-economics/top-tips-for-amateur-poker-players-431d5eddc13d), [2](https://www.pokerlistings.com/11-simple-tricks-you-can-use-to-crush-your-poker-home-game)] containing a few ground truths: don't drink too much, don't see too many flops, and be decisive when you choose to see them.
 
-In our friends' games, the most successful players were also the ones who stuck to the pre-flop rules of low VPIP and high PFR/VPIP the most often. It's nice when practice validates theory! 
+In our friends' games, the most successful players were also the ones who stuck to the pre-flop rules of low VPIP and high PFR/VPIP the most often. It's nice when practice validates theory!
+
 | Player | Net Winnings | VPIP | PFR | PFR/VPIP | Agg |
 |:------:|-------------:|:----:|:---:|:--------:|:---:|
 |    D   |      $107.22 |  38% | 27% |    72%   | 32% |
@@ -42,6 +43,7 @@ In our friends' games, the most successful players were also the ones who stuck 
 |    E   |       -$6.53 |  48% | 40% |    84%   | 36% |
 |    C   |      -$30.33 |  42% | 43% |   100%   | 38% |
 |    F   |     -$122.23 |  83% | 54% |    65%   | 31% |
+
 The post-flop aggression was less clear-cut.
 
 Having logged the data with a VBA-based tracker in Microsoft Excel, I used Python’s pandas and Plotly libraries for the data manipulation and visualisations respectively. Check out the Jupyter notebook [here](https://github.com/luke-fitz/projects/blob/main/poker/poker_strategy_map.ipynb).
