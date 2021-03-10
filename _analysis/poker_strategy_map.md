@@ -19,16 +19,9 @@ Ideally, the VPIP should be 15-20%, the PFR should be 2-3% lower than the VPIP, 
 
 In these scatter charts, each player is represented by a different symbol, and each of their games is plotted as a different point. The points belonging to each player are clustered in the same region, which suggests that **each player's strategy is very consistent between games**. This can be exploited by opponents &mdash; for example, Player B should be treated warily when they finally see a flop, whereas Player F sees too many of them and can be milked more aggressively.
 
-<div id="table">
-   <div class="row">
-      <div class="cell">
-         <iframe width="450" height="450" frameborder="0" scrolling="no" src="https://luke-fitz.github.io/files/poker_pre_flop_scatter.html"></iframe>
-      </div>
-      <div class="cell">
-         <iframe width="450" height="450" frameborder="0" scrolling="no" src="https://luke-fitz.github.io/files/poker_post_flop_scatter.html"></iframe>
-      </div>
-   </div>
-</div>
+<iframe width="600" height="450" frameborder="0" scrolling="no" src="https://luke-fitz.github.io/files/poker_pre_flop_scatter.html"></iframe>
+<iframe width="600" height="450" frameborder="0" scrolling="no" src="https://luke-fitz.github.io/files/poker_post_flop_scatter.html"></iframe>
+
 
 ## Best practices are really best practices.
 If you search the web for "tips for amateur poker players", you'll find helpful articles [[1](https://medium.com/bobs-economics/top-tips-for-amateur-poker-players-431d5eddc13d), [2](https://www.pokerlistings.com/11-simple-tricks-you-can-use-to-crush-your-poker-home-game)] containing a few ground truths: don't drink too much, don't see too many flops, and be decisive when you choose to see them.
