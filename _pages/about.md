@@ -8,11 +8,39 @@ redirect_from:
   - /about.html
 ---
 
-I am dedicated to solving the right problem and delivering the right solution through the use of data, analytics and modeling.
-
-My goal is to apply innovative approaches to create value for organisations and to help solve important real-world problems. The ability to effect positive, far-reaching change by combining data analytics with human ingenuity is a major motivating factor.
-
-In my spare time, I am enthusiastic but generally quite uncoordinated at most sports I turn my hand to, including cricket, tennis, running, touch football and swimming.
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-style:none;overflow:hidden;padding:10px 5px 20px 5px;word-break:normal;width:50%;}
+.tg th{border-style:none;overflow:hidden;padding:0px 0px;word-break:normal;width:50%;}
+.tg .tg-icon{border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-desc{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-icon"><img src="https://luke-fitz.github.io/images/lightbulb.png" height=50px></th>
+    <th class="tg-icon"><img src="https://luke-fitz.github.io/images/lightbulb.png" height=50px></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-desc">I am passionate about building analytics-driven strategies to create value for organisations.</td>
+    <td class="tg-desc">With a computational mathematics and actuarial background, I have ten years' experience as a pricing and analytics manager across fintech, insurance and consulting.</td>
+  </tr>
+</tbody>
+<thead>
+  <tr>
+    <th class="tg-icon"><img src="https://luke-fitz.github.io/images/lightbulb.png" height=50px></th>
+    <th class="tg-icon"><img src="https://luke-fitz.github.io/images/lightbulb.png" height=50px></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-desc">If it can't be explained, implemented, or measured, it shouldn't be done.</td>
+    <td class="tg-desc">In my spare time, I am enthusiastic but generally quite uncoordinated at most sports, including cricket, tennis, running, touch football and kayaking.</td>
+  </tr>
+</tbody>
+</table>
 
 Check out my work
 ------
