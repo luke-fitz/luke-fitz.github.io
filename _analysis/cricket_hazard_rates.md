@@ -5,7 +5,7 @@ type: "Cricket"
 permalink: /analysis/cricket_hazard_rates
 ---
 
-Understanding when batters are likely to lose their wicket
+Understanding when batters are most likely to lose their wicket.
 
 If you've ever studied for actuarial exams, the little orange book of mortality tables is like an old friend. It contains the answers to some of life's great questions, like the odds of a man on his 92nd birthday making it to 93<sup>[1](#qx)</sup>.
 
