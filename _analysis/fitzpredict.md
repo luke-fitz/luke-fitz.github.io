@@ -44,8 +44,8 @@ Equally importantly, the model fits the test data well.
 
 <div class="iframe_container">
     <form align="center">
-        <input type="radio" name="iframe" value="type" onClick= "go('https://luke-fitz.github.io/files/fitzpredict_actual.html')"/>   Actual   	
-        <input type="radio" name="iframe" value="type" onClick = "go('https://luke-fitz.github.io/files/fitzpredict_predicted.html')"/>   Predicted   
+        <input type="radio" name="iframe" value="type" onClick= "go('https://luke-fitz.github.io/files/fitzpredict_actual.html')"/>&nbsp;&nbsp;&nbsp;Actual &nbsp;&nbsp;&nbsp;  	
+        <input type="radio" name="iframe" value="type" onClick = "go('https://luke-fitz.github.io/files/fitzpredict_predicted.html')"/>&nbsp;&nbsp;&nbsp;Predicted&nbsp;&nbsp;&nbsp;
     </form>
 </div>
 <div class="logins_details_container"><!--The top container-->
