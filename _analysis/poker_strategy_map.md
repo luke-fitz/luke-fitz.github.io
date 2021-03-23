@@ -1,8 +1,5 @@
 ---
 title: "Mapping Poker Strategies"
-collection: analysis
-type: "Poker"
-permalink: /analysis/poker_strategy_map
 ---
 
 I secretly tracked my friends' online poker games, and here's what I found.
