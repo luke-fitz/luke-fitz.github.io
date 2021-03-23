@@ -7,21 +7,6 @@ author_profile: true
 
 {% include base_path %}
 
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    <h2 class="archive__item-title" itemprop="headline"> 
-      <a href="https://lukefitzpatrick.pythonanywhere.com/" rel="permalink">
-	      FitzPredict
-	  </a>
-	</h2>
-	<p class="archive__item-excerpt" itemprop="description">
-	  <p>
-	    My own version of the Fox Cricket predictor.
-	  </p>
-	</p>
-  </article>
-</div>
-
 {% for post in site.predictive-modeling %}
   {% include archive-single.html %}
 {% endfor %}
