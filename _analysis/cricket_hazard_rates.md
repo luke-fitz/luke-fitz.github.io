@@ -1,8 +1,5 @@
 ---
 title: "Batting Hazard Rates in Test Cricket"
-collection: analysis
-type: "Cricket"
-permalink: /analysis/cricket_hazard_rates
 ---
 
 Understanding when batters are most likely to lose their wicket.
