@@ -1,8 +1,5 @@
 ---
 title: "Relative Age Effect"
-collection: analysis
-type: "Cricket"
-permalink: /analysis/relative_age_effect
 ---
 
 Is there a relative age effect in cricket?
