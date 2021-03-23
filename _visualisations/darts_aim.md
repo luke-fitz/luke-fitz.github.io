@@ -1,8 +1,5 @@
 ---
 title: "Dartboard Heatmap"
-collection: visualisations
-type: "Darts"
-permalink: /visualisations/darts_aim
 ---
 
 When you're playing darts, where should you aim? 
