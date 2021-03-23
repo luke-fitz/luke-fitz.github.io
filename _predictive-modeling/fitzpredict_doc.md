@@ -1,8 +1,5 @@
 ---
 title: "Under the hood of FitzPredict"
-collection: predictive-modeling
-type: "Cricket"
-permalink: /predictive-modeling/fitzpredict
 ---
 
 You can find the files [here](https://github.com/luke-fitz/projects/tree/main/fitzpredict).
