@@ -1,6 +1,6 @@
 ---
 title: "Under the hood of FitzPredict"
-collection: analysis
+collection: predictive-modeling
 type: "Cricket"
 permalink: /analysis/fitzpredict
 ---
