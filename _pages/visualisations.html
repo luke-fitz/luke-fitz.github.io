@@ -7,36 +7,6 @@ author_profile: true
 
 {% include base_path %}
 
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    <h2 class="archive__item-title" itemprop="headline"> 
-      <a href="https://public.tableau.com/profile/luke.fitzpatrick#!/vizhome/WynnumSeagulls/Dashboard" rel="permalink">
-	      If you're gonna be a bird... be a Seagull!
-	  </a>
-	</h2>
-	<p class="archive__item-excerpt" itemprop="description">
-	  <p>
-	    A visual history of the mighty Wynnum Manly Seagulls.
-	  </p>
-	</p>
-  </article>
-</div>
-
-{% for post in site.visualisations reversed %}
+{% for post in site.visualisations %}
   {% include archive-single.html %}
 {% endfor %}
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    <h2 class="archive__item-title" itemprop="headline"> 
-      <a href="https://public.tableau.com/profile/luke.fitzpatrick#!/vizhome/GreyhoundBoxResults/Dashboard1" rel="permalink">
-	      Greyhound Box Results
-	  </a>
-	</h2>
-	<p class="archive__item-excerpt" itemprop="description">
-	  <p>
-	    What are the historical win rates and returns at each track, distance and box?
-	  </p>
-	</p>
-  </article>
-</div>
