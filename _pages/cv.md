@@ -20,7 +20,7 @@ Career History
 
 * **Senior Data Scientist, Quantium** \
   San Francisco, CA  | Sep 2018 - Sep 2019
-  * <p class="archive__item-excerpt">Developed propensity models in PySpark for a cross-functional 1:1 marketing personalization pilot at a major US bank.</p>
+  * <small>Developed propensity models in PySpark for a cross-functional 1:1 marketing personalization pilot at a major US bank.</small>
   * Led a team of four analysts to configure a transaction enrichment product (competitor of Yodlee and Plaid) for two top 10 US banks, achieving over 90% coverage and accuracy of classified transactions.
 
 Education
