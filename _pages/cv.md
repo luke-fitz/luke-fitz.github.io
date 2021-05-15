@@ -63,20 +63,19 @@ Certifications
 
 Awards
 =====
-* **University Medal**, Queensland University of Technology, 2010
-* **Staff Prize for Outstanding Achievement in Honours Year**, Queensland University of Technology, 2010
-* **Staff Prize for Outstanding Achievement in Second-Year Subjects**, Queensland University of Technology, 2008 and 2009
-* **Head of School’s Award for Excellence in Mathematics**, Queensland University of Technology, 2009
-* **Dean's Merit Award**, Queensland University of Technology, 2008 and 2009
-* **Research Scholarship**, Australian Mathematical Sciences Institute, 2009
-* **Vice-Chancellor's Scholarship**, Queensland University of Technology, 2008
-* **Australian Student Prize**, 2007
-* **Dux of College**, Iona College, 2007
+* **University Medal**, Queensland University of Technology (2010)
+* **Staff Prize for Outstanding Achievement in Honours Year**, Queensland University of Technology (2010)
+* **Staff Prize for Outstanding Achievement in Second-Year Subjects**, Queensland University of Technology (2008, 2009)
+* **Head of School’s Award for Excellence in Mathematics**, Queensland University of Technology (2009)
+* **Dean's Merit Award**, Queensland University of Technology (2008, 2009)
+* **Research Scholarship**, Australian Mathematical Sciences Institute (2009)
+* **Vice-Chancellor's Scholarship**, Queensland University of Technology (2008)
+* **Australian Student Prize** (2007)
+* **Dux of College**, Iona College (2007)
 
 Voluntary Experience
 ======
-* **Food Kitchen Volunteer**, St Anthony's Foundation, 2019 - Current
-* **VP of Public Relations**, SF Downtown Toastmasters, 2020 - 2021
-* **Social Buddy**, Share Community, 2016 - 2018
-* **Team Leader**, Rosies Youth Mission, 2011 - 2014
-
+* **Food Kitchen Volunteer**, St Anthony's Foundation (2019 - Current)
+* **VP of Public Relations**, SF Downtown Toastmasters (2020 - 2021)
+* **Social Buddy**, Share Community (2016 - 2018)
+* **Team Leader**, Rosies Youth Mission (2011 - 2014)
