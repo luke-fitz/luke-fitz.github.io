@@ -11,6 +11,7 @@ title                    : "Luke Fitzpatrick"
 title_separator          : "-"
 name                     : &name "Luke Fitzpatrick"
 description              : &description "Analytics Professional"
+tagline                  : "Analytics Manager and Data Scientist at Affirm, Quantium, and Direct Line Group"
 url                      : https://luke-fitz.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "luke-fitz/luke-fitz.github.io"
@@ -50,7 +51,7 @@ atom_feed:
   path                   : # blank (default) uses feed.xml
 
 # SEO Related
-google_site_verification :
+google_site_verification : "ByLBbiOXXNHF124WhM2tLlrd75tBQ25MjgB_hfVQnfg"
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
