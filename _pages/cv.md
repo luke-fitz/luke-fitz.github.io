@@ -41,7 +41,7 @@ Career History
   
 Education
 ======
-* **Associate of the Institute of Actuaries of Australia (AIAA) ** \
+* **Associate of the Institute of Actuaries of Australia (AIAA)** \
   Brisbane, Australia  &nbsp;&nbsp;|&nbsp;&nbsp;  Mar 2011 - Dec 2013
 
 * **Bachelor of Applied Science (Mathematics) (First Class Honours)** \
