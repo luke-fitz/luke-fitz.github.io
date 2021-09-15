@@ -10,7 +10,7 @@ I started playing regular online poker games with a group of friends during lock
 The [three most important metrics](https://pokercopilot.com/essential-poker-statistics) in poker are:
 - Voluntarily Put $ in Pot (VPIP): how often you voluntarily pay money into a hand before seeing the flop
 - Pre-flop Raise (PFR): how often you raise before the flop is seen
-- Post-flop Aggression Frequency (Agg): how aggressively you play pos-tflop
+- Post-flop Aggression Frequency (Agg): how aggressively you play post-flop
 
 Ideally, the VPIP should be 15-20%, the PFR should be 2-3% lower than the VPIP, and the Agg should be 50-60%.
 
