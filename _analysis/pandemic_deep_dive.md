@@ -1,8 +1,8 @@
 ---
-title: "Covid-19 mobility deep dive"
+title: "Covid-19 Mobility Deep Dive"
 ---
 
-What can US population mobility data uncover about Covid-19 stay-at-home trends?
+What can US population mobility data tell us about Covid-19 stay-at-home trends?
 
 The Bureau of Transportation Statistics provides [daily county-level mobility data](https://data.bts.gov/Research-and-Statistics/Trips-by-Distance/w96p-f2qv/data) from a mobile device panel, which are weighted to be representative of the US population.
 
@@ -13,7 +13,7 @@ The Bureau of Transportation Statistics provides [daily county-level mobility da
   - For every 100 cases per million residents in the last 14 days, the stay-at-home rate increases by an average 1.6%. Metro areas are the most sensitive.
 - This is likely caused by multiple interdependent drivers such as lockdown measures and community concern.
 
-<img src="https://luke-fitz.github.io/files/covid_mobility_by_incidence.JPG">
+<img src="https://luke-fitz.github.io/files/covid_mobility_by_incidence.jpg">
 <img src="https://luke-fitz.github.io/files/covid_mobility_by_incidence_table.JPG">
 
 ## There is early evidence of a permanent shift in mobility, particularly in high-income regions.
@@ -26,6 +26,6 @@ The Bureau of Transportation Statistics provides [daily county-level mobility da
 
 ## The map of county stay-at-home rates looks a bit like the map of election results
 
-<img src="https://luke-fitz.github.io/files/covid_mobility_map_202106.JPG">
+<img src="https://luke-fitz.github.io/files/covid_mobility_map_202106.png">
 
 I used [this](https://github.com/luke-fitz/projects/blob/main/covid_mobility/Covid-19%20Mobility%20Deep%20Dive.ipynb) Jupyter notebook to wrangle the data, and created the map in Tableau.
