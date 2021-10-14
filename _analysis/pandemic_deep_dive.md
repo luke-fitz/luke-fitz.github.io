@@ -4,7 +4,7 @@ title: "Covid-19 Mobility Deep Dive"
 
 What can US population mobility data tell us about Covid-19 stay-at-home trends?
 
-The Bureau of Transportation Statistics provides [daily county-level mobility data](https://data.bts.gov/Research-and-Statistics/Trips-by-Distance/w96p-f2qv/data) from a mobile device panel, which are weighted to be representative of the US population.
+The Bureau of Transportation Statistics provides [daily county-level mobility data](https://data.bts.gov/Research-and-Statistics/Trips-by-Distance/w96p-f2qv/data) from a mobile device panel, which are weighted to be representative of the US population. This was a snapshot in June 2021.
 
 ## Stay-at-home rates have seen the largest increases in metro areas, and in counties with high recent case incidence rates.
 - Stay-at-home rates have increased by an average of 26% compared to pre-Covid levels.
@@ -24,7 +24,7 @@ The Bureau of Transportation Statistics provides [daily county-level mobility da
 
 <img src="https://luke-fitz.github.io/files/covid_mobility_over_time.JPG">
 
-## The map of county stay-at-home rates looks a bit like the map of election results
+## The map of county stay-at-home rates looks a bit like the map of election results.
 
 <img src="https://luke-fitz.github.io/files/covid_mobility_map_202106.png">
 
