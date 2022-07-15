@@ -1,5 +1,5 @@
 ---
-title: "Under the hood of FitzPredict"
+title: "Under the Hood of FitzPredict"
 ---
 
 You can find the files [here](https://github.com/luke-fitz/projects/tree/main/fitzpredict).
