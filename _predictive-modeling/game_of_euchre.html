@@ -42,7 +42,7 @@ title: "Euchre Simulator"
     <td class="tg-0pky">1 =   1<br>     2 = 2<br>     3 = 6<br>     4 = 9<br>     5 = 12</td>
     <td class="tg-0pky">J<sub>right</sub> = 10<br>     J<sub>left</sub> = 8<br>     A = 6<br>     K = 5<br>     Q, T = 4<br>     9, 8, 7 = 3</td>
     <td class="tg-0pky">A = 4 each<br>     K = 1 each</td>
-    <td class="tg-0pky">J = -5<br>     A = -2 <br> <i>* Only applies during the first round of bidding and if your opponent is the dealer.</i></td>
+    <td class="tg-0pky">J = -5<br>     A = -2 <br><br> <i>* Only applies during the first round of bidding and if your opponent is the dealer.</i></td>
   </tr>
 </tbody>
 </table>
@@ -55,6 +55,7 @@ title: "Euchre Simulator"
 
 <style type="text/css">
 table {table-layout: fixed; width: 100%;}
+table tr th:nth-child(1){width: 25%;}
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   overflow:hidden;padding:10px 5px;word-break:normal;}
@@ -122,21 +123,21 @@ table {table-layout: fixed; width: 100%;}
 <p>
   The simulator uses a rule-based approach for choosing cards. Its first-order approximation is:
 <ol>
-  <li>Golden rule</li>
+  <li style="font-weight: bold;">Golden rule</li>
   <ol type="a">
     <li>If you made trumps and the outcome of the hand is still uncertain, keep one trump in your hand as a saver.</li>
   </ol>
-  <li>First card in trick</li>
+  <li style="font-weight: bold;">First card in trick</li>
   <ol type="a">
     <li>If your team made trumps, lead your best trump card.</li>
     <li>If your opponents made trumps, lead your best offsuit card.</li>
   </ol>
-  <li>Second or third card in trick</li>
+  <li style="font-weight: bold;">Second or third card in trick</li>
   <ol type="a">
     <li>If all your cards would lose, or you think your partner's lead card will win, or you made trumps and are VERY nervous, then throw away your weakest card.</li>
     <li>Otherwise, take the lead in the trick with either your strongest offsuit (if you can follow suit) or your weakest trump.</li>
   </ol>
-  <li>Last card in trick</li>
+  <li style="font-weight: bold;">Last card in trick</li>
   <ol type="a">
     <li>If your opponents are leading the trick and you can win it and it wouldn't break the golden rule, then play your weakest card that wins the trick.</li>
     <li> Otherwise, throw away your weakest card.</li>
