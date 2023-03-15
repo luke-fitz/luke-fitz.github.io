@@ -4,21 +4,27 @@ title: "Euchre Simulator"
 
 I simulated the <a href="https://en.wikipedia.org/wiki/Euchre">euchre</a> card game in Python.
 
-It's a cool little simulation, and is easily extensible to other variations of euchre or to user-vs-computer gameplay.
+<p>
+  It's a cool little simulation, and is easily extensible to other variations of euchre or to user-vs-computer gameplay.
+</p>
 
-Some people say that euchre is a poor man's bridge, and the results suggest that these people are exactly right. A player bidding randomly would still win 21% of their games. A player bidding _and playing_ randomly would win 10%. These numbers seem absurdly high for a venerable card game. A trained monkey could probably win a world championship with an ounce of luck.
+<p>
+  Some people say that euchre is a poor man's bridge, and the results suggest that these people are exactly right. A player bidding randomly would still win 21% of their games. A player bidding _and playing_ randomly would win 10%. These numbers seem absurdly high for a venerable card game. A trained monkey could probably win a world championship with an ounce of luck.
+</p>
 
-## Bidding
-After simulating millions of hands of euchre, I modelled the results down to the following strategy which is not too difficult to remember.
+<h2>Bidding</h2>
+<p>
+  After simulating millions of hands of euchre, I modelled the results down to the following strategy which is not too difficult to remember.
+</p>
 
-### 1. Calculate your hand's score according to this table.
+<h3>1. Calculate your hand's score according to this table.</h3>
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+  font-weight:bold;overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
 </style>
 <table class="tg">
@@ -40,16 +46,18 @@ After simulating millions of hands of euchre, I modelled the results down to the
 </tbody>
 </table>
 
-Your score is (A) + (B) + (C) + (D).
+<p>
+  Your score is (A) + (B) + (C) + (D).
+</p>
 
-### 2. If your score is higher than the threshold for your position, then make the call. Otherwise pass.
+<h3>2. If your score is higher than the threshold for your position, then make the call. Otherwise pass.</h3>
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+  font-weight:bold;overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg .tg-pb0m{border-color:inherit;text-align:center;vertical-align:bottom}
 .tg .tg-za14{border-color:inherit;text-align:left;vertical-align:bottom}
 .tg .tg-8d8j{text-align:center;vertical-align:bottom}
@@ -83,6 +91,7 @@ Your score is (A) + (B) + (C) + (D).
     <td class="tg-7zrl">16</td>
     <td class="tg-7zrl">15</td>
     <td class="tg-7zrl">20</td>
+    <td class="tg-7zrl">15</td>
     <td class="tg-7zrl">17</td>
   </tr>
   <tr>
@@ -99,24 +108,44 @@ Your score is (A) + (B) + (C) + (D).
 </tbody>
 </table>
 
-Although this is an elaborate set of rules, it would win only about 50.9% of games when the other three players follow a simple trump-counting bidding strategy. How much better could a more sophisticated version be? Eventually it would be nice to use this simulator to generate training data for an ML model of optimal bidding strategy. 
+<p>
+  Although this is an elaborate set of rules, it would win only about 50.9% of games when the other three players follow a simple trump-counting bidding strategy. How much better could a more sophisticated version be? Eventually it would be nice to use this simulator to generate training data for an ML model of optimal bidding strategy. 
+</p>
 
-Of course, the best strategy also depends on the other players -- if your opponents bid more cautiously then you should be more cautious too. The game situation could also be taken into account.
+<p>
+  Of course, the best strategy also depends on the other players -- if your opponents bid more cautiously then you should be more cautious too. The game situation could also be taken into account.
+</p>
 
-## Playing
-The simulator uses a rule-based approach for choosing cards. The first-order approximation is:
-1. Golden rule
-a. If you made trumps and the outcome of the hand is still uncertain, keep one trump in your hand as a saver
-2. First card in trick
-a. If your team made trumps, lead your best trump card
-b. If your opponents made trumps, lead your best offsuit card
-3. Second or third card in trick
-a. If all your cards would lose, or you think your partner's lead card will win, or you made trumps and are VERY nervous, then throw away your weakest card
-b. Otherwise, take the lead in the trick with either your strongest offsuit (if you can follow suit) or your weakest trump
-4. Last card in trick
-a. If opponents are leading the trick and you can win it and it wouldn't break the golden rule, then play your weakest card that wins the trick
-b. Otherwise, throw away your weakest card
+<h2>Playing</h2>
+<p>
+  The simulator uses a rule-based approach for choosing cards. The first-order approximation is:
+<ol>
+  <li>Golden rule</li>
+  <ol type="a">
+    <li>If you made trumps and the outcome of the hand is still uncertain, keep one trump in your hand as a saver.</li>
+  </ol>
+  <li>First card in trick</li>
+  <ol type="a">
+    <li>If your team made trumps, lead your best trump card.</li>
+    <li>If your opponents made trumps, lead your best offsuit card.</li>
+  </ol>
+  <li>Second or third card in trick</li>
+  <ol type="a">
+    <li>If all your cards would lose, or you think your partner's lead card will win, or you made trumps and are VERY nervous, then throw away your weakest card.</li>
+    <li>Otherwise, take the lead in the trick with either your strongest offsuit (if you can follow suit) or your weakest trump.</li>
+  </ol>
+  <li>Last card in trick</li>
+  <ol type="a">
+    <li>If your opponents are leading the trick and you can win it and it wouldn't break the golden rule, then play your weakest card that wins the trick.</li>
+    <li> Otherwise, throw away your weakest card.</li>
+  </ol>
+</ol>
+</p>
 
-I tried to run experiments where I varied this strategy, but couldn't come up with anything better.
+<p>
+  I tried to run experiments where I varied this strategy, but couldn't come up with anything better.
+</p>
 
-Check out the project <a href="https://github.com/luke-fitz/projects/tree/main/euchre">here</a>.
+<p>
+  Check out the project <a href="https://github.com/luke-fitz/projects/tree/main/euchre">here</a>.
+</p>
