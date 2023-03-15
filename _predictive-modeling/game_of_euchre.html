@@ -1,15 +1,16 @@
 ---
 title: "Euchre Simulator"
 ---
-
-I simulated the <a href="https://en.wikipedia.org/wiki/Euchre">euchre</a> card game in Python.
+<p>
+  I simulated the <a href="https://en.wikipedia.org/wiki/Euchre">euchre</a> card game in Python.
+</p>
 
 <p>
   It's a cool little simulation, and is easily extensible to other variations of euchre or to user-vs-computer gameplay.
 </p>
 
 <p>
-  Some people say that euchre is a poor man's bridge, and the results suggest that these people are exactly right. A player bidding randomly would still win 21% of their games. A player bidding _and playing_ randomly would win 10%. These numbers seem absurdly high for a venerable card game. A trained monkey could probably win a world championship with an ounce of luck.
+  Some people say that euchre is a poor man's bridge, and the results suggest that these people are exactly right. A player bidding randomly would still win 21% of their games. A player bidding <i>and playing</i> randomly would win 10%. These numbers seem absurdly high for a venerable card game. A trained monkey could probably win a world championship with an ounce of luck.
 </p>
 
 <h2>Bidding</h2>
@@ -33,15 +34,15 @@ I simulated the <a href="https://en.wikipedia.org/wiki/Euchre">euchre</a> card g
     <th class="tg-0pky">(A) Number of Trumps</th>
     <th class="tg-0pky">(B) Trump Cards</th>
     <th class="tg-0pky">(C) Offsuit Cards</th>
-    <th class="tg-0pky">(D) Flipped Card Penalty <br>(opposite dealer only)</th>
+    <th class="tg-0pky">(D) Flipped Card Penalty*</th>
   </tr>
 </thead>
 <tbody>
   <tr>
     <td class="tg-0pky">1 =   1<br>     2 = 2<br>     3 = 6<br>     4 = 9<br>     5 = 12</td>
-    <td class="tg-0pky">J (Right) = 10<br>     J (Left) = 8<br>     A = 6<br>     K = 5<br>     Q, T = 4<br>     9, 8, 7 = 3</td>
+    <td class="tg-0pky">J<sub>right</sub> = 10<br>     J<sub>left</sub> = 8<br>     A = 6<br>     K = 5<br>     Q, T = 4<br>     9, 8, 7 = 3</td>
     <td class="tg-0pky">A = 4 each<br>     K = 1 each</td>
-    <td class="tg-0pky">J = -5<br>     A = -2</td>
+    <td class="tg-0pky">J = -5<br>     A = -2 <br> <i>* Only applies during the first round of bidding and if your opponent is the dealer.</i></td>
   </tr>
 </tbody>
 </table>
@@ -53,6 +54,7 @@ I simulated the <a href="https://en.wikipedia.org/wiki/Euchre">euchre</a> card g
 <h3>2. If your score is higher than the threshold for your position, then make the call. Otherwise pass.</h3>
 
 <style type="text/css">
+table {table-layout: fixed; width: 100%;}
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   overflow:hidden;padding:10px 5px;word-break:normal;}
@@ -67,8 +69,8 @@ I simulated the <a href="https://en.wikipedia.org/wiki/Euchre">euchre</a> card g
 <thead>
   <tr>
     <th class="tg-za14">Bidding Round</th>
-    <th class="tg-pb0m" colspan="4">1 -- Flipped Card</th>
-    <th class="tg-8d8j" colspan="4">2 -- Open Bidding</th>
+    <th class="tg-pb0m" colspan="4">1 &mdash;  Flipped Card</th>
+    <th class="tg-8d8j" colspan="4">2 &mdash;  Open Bidding</th>
   </tr>
 </thead>
 <tbody>
@@ -113,12 +115,12 @@ I simulated the <a href="https://en.wikipedia.org/wiki/Euchre">euchre</a> card g
 </p>
 
 <p>
-  Of course, the best strategy also depends on the other players -- if your opponents bid more cautiously then you should be more cautious too. The game situation could also be taken into account.
+  Of course, the best strategy also depends on the other players &mdash;  if your opponents bid more cautiously then you should be more cautious too. The game situation could also be taken into account.
 </p>
 
 <h2>Playing</h2>
 <p>
-  The simulator uses a rule-based approach for choosing cards. The first-order approximation is:
+  The simulator uses a rule-based approach for choosing cards. Its first-order approximation is:
 <ol>
   <li>Golden rule</li>
   <ol type="a">
