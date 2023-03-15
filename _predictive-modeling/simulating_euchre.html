@@ -1,0 +1,122 @@
+---
+title: "Euchre Simulator"
+---
+
+I simulated the <a href="https://en.wikipedia.org/wiki/Euchre">euchre</a> card game in Python.
+
+It's a cool little simulation, and is easily extensible to other variations of euchre or to user-vs-computer gameplay.
+
+Some people say that euchre is a poor man's bridge, and the results suggest that these people are exactly right. A player bidding randomly would still win 21% of their games. A player bidding _and playing_ randomly would win 10%. These numbers seem absurdly high for a venerable card game. A trained monkey could probably win a world championship with an ounce of luck.
+
+## Bidding
+After simulating millions of hands of euchre, I modelled the results down to the following strategy which is not too difficult to remember.
+
+### 1. Calculate your hand's score according to this table.
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0pky">(A) Number of Trumps</th>
+    <th class="tg-0pky">(B) Trump Cards</th>
+    <th class="tg-0pky">(C) Offsuit Cards</th>
+    <th class="tg-0pky">(D) Flipped Card Penalty <br>(opposite dealer only)</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky">1 =   1<br>     2 = 2<br>     3 = 6<br>     4 = 9<br>     5 = 12</td>
+    <td class="tg-0pky">J (Right) = 10<br>     J (Left) = 8<br>     A = 6<br>     K = 5<br>     Q, T = 4<br>     9, 8, 7 = 3</td>
+    <td class="tg-0pky">A = 4 each<br>     K = 1 each</td>
+    <td class="tg-0pky">J = -5<br>     A = -2</td>
+  </tr>
+</tbody>
+</table>
+
+Your score is (A) + (B) + (C) + (D).
+
+### 2. If your score is higher than the threshold for your position, then make the call. Otherwise pass.
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-pb0m{border-color:inherit;text-align:center;vertical-align:bottom}
+.tg .tg-za14{border-color:inherit;text-align:left;vertical-align:bottom}
+.tg .tg-8d8j{text-align:center;vertical-align:bottom}
+.tg .tg-7zrl{text-align:left;vertical-align:bottom}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-za14">Bidding Round</th>
+    <th class="tg-pb0m" colspan="4">1 -- Flipped Card</th>
+    <th class="tg-8d8j" colspan="4">2 -- Open Bidding</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-za14">Position</td>
+    <td class="tg-za14">Left</td>
+    <td class="tg-za14">Opposite</td>
+    <td class="tg-za14">Right</td>
+    <td class="tg-7zrl">Dealer</td>
+    <td class="tg-7zrl">Left</td>
+    <td class="tg-7zrl">Opposite</td>
+    <td class="tg-7zrl">Right</td>
+    <td class="tg-7zrl">Dealer</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">Min Points for Bid</td>
+    <td class="tg-7zrl">26</td>
+    <td class="tg-7zrl">n/a</td>
+    <td class="tg-7zrl">31</td>
+    <td class="tg-7zrl">16</td>
+    <td class="tg-7zrl">15</td>
+    <td class="tg-7zrl">20</td>
+    <td class="tg-7zrl">17</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">Min Points for Lone Bid</td>
+    <td class="tg-7zrl">30</td>
+    <td class="tg-7zrl">25</td>
+    <td class="tg-7zrl">34</td>
+    <td class="tg-7zrl">25</td>
+    <td class="tg-7zrl">26</td>
+    <td class="tg-7zrl">28</td>
+    <td class="tg-7zrl">26</td>
+    <td class="tg-7zrl">28</td>
+  </tr>
+</tbody>
+</table>
+
+Although this is an elaborate set of rules, it would win only about 50.9% of games when the other three players follow a simple trump-counting bidding strategy. How much better could a more sophisticated version be? Eventually it would be nice to use this simulator to generate training data for an ML model of optimal bidding strategy. 
+
+Of course, the best strategy also depends on the other players -- if your opponents bid more cautiously then you should be more cautious too. The game situation could also be taken into account.
+
+## Playing
+The simulator uses a rule-based approach for choosing cards. The first-order approximation is:
+1. Golden rule
+a. If you made trumps and the outcome of the hand is still uncertain, keep one trump in your hand as a saver
+2. First card in trick
+a. If your team made trumps, lead your best trump card
+b. If your opponents made trumps, lead your best offsuit card
+3. Second or third card in trick
+a. If all your cards would lose, or you think your partner's lead card will win, or you made trumps and are VERY nervous, then throw away your weakest card
+b. Otherwise, take the lead in the trick with either your strongest offsuit (if you can follow suit) or your weakest trump
+4. Last card in trick
+a. If opponents are leading the trick and you can win it and it wouldn't break the golden rule, then play your weakest card that wins the trick
+b. Otherwise, throw away your weakest card
+
+I tried to run experiments where I varied this strategy, but couldn't come up with anything better.
+
+Check out the project <a href="https://github.com/luke-fitz/projects/tree/main/euchre">here</a>.
