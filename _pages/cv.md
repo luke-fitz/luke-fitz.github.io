@@ -9,8 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Career History
-======
+## Career History
 * **Data Science Lead, VALD** \
   Brisbane, AU &nbsp;&nbsp;|&nbsp;&nbsp; Mar 2023 – Current
   * Spearheaded the development of a data and analytics roadmap as the first senior analytical hire, reporting directly to the Chief Product Officer.
@@ -49,8 +48,7 @@ Career History
   * Prepared a monthly report analysing trends in key steel indices and other global markets.
   * Created and presented a SAS tutorial for colleagues.
 
-Education
-======
+## Education
 * **Associate of the Institute of Actuaries of Australia (AIAA)** \
   Brisbane, Australia  &nbsp;&nbsp;|&nbsp;&nbsp;  Mar 2011 – Dec 2013
 
@@ -60,19 +58,16 @@ Education
   * GPA: 7.0 out of 7 (high distinction)
   * Average Grade: 98%
 
-Skills
-======
+## Skills
 * **Software:** SQL, Python, SAS, R, Tableau, Looker, VBA, PySpark, Snowflake, DBT
 * **Technical**: Predictive modeling, Data cleansing, Data visualization, Feature engineering, Price optimization
 * **Personal**: Problem solving, Teamwork, Communication, Stakeholder management, Self-motivation
   
-Certifications
-======
+## Certifications
 * **Data Scientist with Python Specialization**, DataCamp
 * **Machine Learning Specialization**, Coursera
 
-Awards
-=====
+## Awards
 * **University Medal**, Queensland University of Technology (2010)
 * **Staff Prize for Outstanding Achievement in Honours Year**, Queensland University of Technology (2010)
 * **Staff Prize for Outstanding Achievement in Second-Year Subjects**, Queensland University of Technology (2008, 2009)
@@ -83,9 +78,9 @@ Awards
 * **Australian Student Prize** (2007)
 * **Dux of College**, Iona College (2007)
 
-Voluntary Experience
-======
-* **Food Kitchen Volunteer**, St Anthony's Foundation (2019 – Current)
+## Voluntary Experience
+* **Volunteer**, Coffee Brigade (2023 – Current)
+* **Food Kitchen Volunteer**, St Anthony's Foundation (2019 – 2022)
 * **VP of Public Relations**, SF Downtown Toastmasters (2020 – 2021)
 * **Social Buddy**, Share Community (2016 – 2018)
 * **Team Leader**, Rosies Youth Mission (2011 – 2014)
