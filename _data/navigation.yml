@@ -9,6 +9,9 @@ main:
   - title: "Predictive Modeling"
     url: /predictive-modeling/
     
+  - title: "Media"
+    url: /media/
+    
   - title: "CV"
     url: /cv/
 
