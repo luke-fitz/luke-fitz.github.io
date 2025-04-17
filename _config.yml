@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Luke Fitzpatrick"
 title_separator          : "-"
 name                     : &name "Luke Fitzpatrick"
-description              : &description "Analytics Professional"
+description              : &description "Analytics Leader"
 tagline                  : "Analytics Manager and Data Scientist at Affirm, Quantium, and Direct Line Group"
 url                      : https://luke-fitz.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -84,7 +84,7 @@ author:
   name             : "Luke Fitzpatrick"
   avatar           : "profile3.jpg"
   bio              : "If you can't explain it to a six-year-old, you don't understand it yourself"
-  location         : "Brisbane"
+  location         : "North Carolina"
   employer         :
   pubmed           : 
   googlescholar    : 
