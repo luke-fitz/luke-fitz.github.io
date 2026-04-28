@@ -17,7 +17,6 @@ Sep 2025 – Current
 * Joined team and rapidly audited data, models, and algorithms; identified and implemented pricing optimization delivering $10M annual benefit.
 * Built scalable testing framework for direct buying, unlocking $2M opportunity.
 * Led evaluation of external data partnerships, influencing contract decisions and quantifying impact.
-
 * **Technologies:** AI-Assisted Development (Codex, Copilot), Snowflake, Python, SQL, Git.
 
 **Head of Data Science, [VALD](https://www.vald.com/)** \
