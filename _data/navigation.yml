@@ -3,8 +3,8 @@ main:
   - title: "Analysis"
     url: /analysis/
 
-  - title: "Visualisations"
-    url: /visualisations/
+  - title: "Visualizations"
+    url: /visualizations/
     
   - title: "Predictive Modeling"
     url: /predictive-modeling/

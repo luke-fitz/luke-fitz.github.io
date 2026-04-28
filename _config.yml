@@ -179,7 +179,7 @@ collections:
   analysis:
     output: true
     permalink: /:collection/:path/
-  visualisations:
+  visualizations:
     output: true
     permalink: /:collection/:path/
   predictive-modeling:
@@ -215,10 +215,10 @@ defaults:
       layout: single
       author_profile: true
       share: true
-  # _visualisations
+  # _visualizations
   - scope:
       path: ""
-      type: visualisations
+      type: visualizations
     values:
       layout: single
       author_profile: true
