@@ -10,15 +10,25 @@ redirect_from:
 {% include base_path %}
 
 ## Career History
+
+**Senior Manager, Data Science, [CarMax](https://www.carmax.com/)** \
+Richmond, VA \
+Sep 2025 – Current
+* Joined team and rapidly audited data, models, and algorithms; identified and implemented pricing optimization delivering $10M annual benefit.
+* Built scalable testing framework for direct buying, unlocking $2M opportunity.
+* Led evaluation of external data partnerships, influencing contract decisions and quantifying impact.
+
+* **Technologies:** AI-Assisted Development (Codex, Copilot), Snowflake, Python, SQL, Git.
+
 **Head of Data Science, [VALD](https://www.vald.com/)** \
 Brisbane, Australia \
-Mar 2023 – Current
+Mar 2023 – Aug 2025
 * Hired as VALD’s first Head of Data Science to define and execute data roadmap, aligning with business goals and building an 8-person Data Science & Engineering team in two years.
 * Spearheaded an enterprise data lakehouse on Azure Databricks, delivering $1M annually through new product features and operational efficiency, while establishing robust data governance practices.
 * Championed VALD’s data strategy through a keynote client conference speech, investor due diligence (leading to $10M investment), [webinars](https://webinars.vald.com/sessions/utilizing-normative-data-to-enhance-clinical-evaluations), and industry-leading [podcast](https://paceyperformancepodcast.podbean.com/e/utilising-normative-data-effectively-across-different-technologies-with-luke-fitzpatrick/).
 * **Technologies:** Azure Databricks, PySpark, R, MLflow, SQL, Power BI, Git.
    
-**Senior Manager (Analytics), [Affirm](https://www.affirm.com/)** \
+**Senior Manager, Analytics, [Affirm](https://www.affirm.com/)** \
 San Francisco, CA \
 Oct 2019 – Jan 2023
 * Established a 7-person Merchant Pricing Foundations team responsible for data management strategy, analytical tools, partnership deal pricing, and international expansion, increasing pricing efficiency by 20%.
